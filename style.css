@@ -43,7 +43,7 @@ main{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color:#01161E ;
+    background-color:#010f15 ;
 }
 .weather-container{
     display: flex;

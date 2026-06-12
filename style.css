@@ -4,7 +4,7 @@ html{
 
 header{
     height: 150px;
-    background-color:#1f68b1;
+    background-color:#010407;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ main{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color:#109eda ;
+    background-color:#1992c2 ;
 }
 .weather-container{
     display: flex;

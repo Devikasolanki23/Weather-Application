@@ -50,7 +50,7 @@ conditionElem.innerText=condition;
 
 }
 async function fetchWeather(location){
-    const url=`http://api.weatherapi.com/v1/current.json?key=50fdc432d63e470ab6d85601261106&q=${location}&aqi=no`;
+    const url=`https://api.weatherapi.com/v1/current.json?key=50fdc432d63e470ab6d85601261106&q=${location}&aqi=no`;
     //fetch->inbuilt function to get http response from a server
     const response=await fetch(url);
     if(response.status == 400){
